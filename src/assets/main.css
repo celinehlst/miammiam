@@ -1,0 +1,31 @@
+@import './base.css';
+
+:root {
+  --header-height: 100px;
+}
+
+h1 {
+  font-family: 'DynaPuff', system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fc466b;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input,
+li,
+label,
+textarea {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
